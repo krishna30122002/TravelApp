@@ -110,7 +110,7 @@ const Footer = () => {
                     <i className="ri-mail-line"></i>
                   </span>
                   Email:
-                <p className="mb-0 ">priyanshurajanand123456@gmail.com</p>
+                <p className="mb-0 ">travellingatlas@gmail.com</p>
                 </h6>
               </ListGroupItem>
               <ListGroupItem className="ps-0 border-0 flex align-items-center gap-3 ">
@@ -126,7 +126,7 @@ const Footer = () => {
           </Col>
           <hr />
           <Col lg='12' className="text-center pt-5 ">
-            <p className="copyright">Copyright {year} , design and develop by Priyanshu Raj Anand. All rights reserved.</p>
+            <p className="copyright">&copy; Copyright {year} , design and develop by NIGHT O' GEEKS. All rights reserved.</p>
           </Col>
         </Row>
       </Container>
