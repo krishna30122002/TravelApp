@@ -3,6 +3,7 @@
     url("../../assets/images/tour.jpg") no-repeat center center;
     background-size: cover;
   height: 300px;
+  margin-top: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;

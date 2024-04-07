@@ -32,10 +32,11 @@ const Home = () => {
                   <span className="highlight">memories</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Magni voluptatum commodi voluptate dolor. Vitae sequi sint
-                  animi commodi ut? Reprehenderit sapiente exercitationem
-                  facilis, a aliquam obcaecati quia animi fugit quo!
+                  Exploring new places is an invigorating pursuit that
+                  opens doors to unfamiliar cultures, landscapes, and experiences.
+                  Exploring new places sparks curiosity, helps us grow as individuals,
+                  and teaches us to understand others better. It shows us the beauty of
+                  different places and helps us make friends from all over the world. 
                 </p>
               </div>
             </Col>
@@ -93,15 +94,15 @@ const Home = () => {
               </div>
               <div className="counter_wrapper d-flex align-items-center gap-5">
                 <div className="counter_box">
-                  <span>12k+</span>
-                  <h6>Successful trip</h6>
+                  <span>15k+</span>
+                  <h6>Successful trips</h6>
                 </div>
                 <div className="counter_box">
                   <span>2k+</span>
                   <h6>Regular clients</h6>
                 </div>
                 <div className="counter_box">
-                  <span>15</span>
+                  <span>12</span>
                   <h6>Years experience</h6>
                 </div>
               </div>
