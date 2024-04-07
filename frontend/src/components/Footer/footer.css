@@ -4,7 +4,7 @@
 }
 
 .footer .logo img {
-    width: 50%;
+    width: 70%;
     margin-bottom: 1rem;
 }
 
@@ -22,6 +22,14 @@
     text-decoration: none;
     color: var(--text-color);
     font-size: 1.1rem;
+    transition: all linear 0.3s;
+}
+
+.footer_quick-links li a:hover{
+    
+    text-decoration: none;
+    color: rgb(33, 182, 33);
+    box-shadow: 1.5px 1.5px 1.5px rgba(13, 192, 37, 0.527);
 }
 
 .footer_quick-links h6 span {
