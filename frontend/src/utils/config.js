@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://tour-travel-service.onrender.com/api/v1'
