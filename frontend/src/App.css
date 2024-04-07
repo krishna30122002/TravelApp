@@ -103,3 +103,16 @@ ul {
     padding: 40px 0;
   }
 }
+
+.page {
+  position: relative;
+}
+
+.page>div {
+  position: absolute;
+  background: var(--bg-color);
+  left: 0;
+  right: 0;
+  top: 0;
+}
+

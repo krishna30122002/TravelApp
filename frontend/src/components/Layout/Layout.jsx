@@ -9,6 +9,7 @@ import SearchResultList from "../../pages/SearchResultList";
 import Header from "./../Header/Header";
 import Footer from "./../Footer/Footer";
 import ThankYou from "../../pages/ThankYou";
+import About from '../../pages/contact';
 
 const Layout = () => {
   return (
@@ -18,6 +19,7 @@ const Layout = () => {
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/tours" element={<Tours />} />
+        <Route path="/about" element={<About />} />
         <Route path="/tours/:id" element={<TourDetails />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
