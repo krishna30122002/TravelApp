@@ -1,13 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #ff7e01;
-  --secondary-color: #faa935;
+  --primary-color: seagreen;
+  --secondary-color: #2ecc71; /* Seagreen */
   --heading-color: #0b2727;
   --text-color: #6e7074;
-  --font-name: "Montserrat", sans-serif;
+  --font-name: "Poppins", sans-serif; /* Changed font to Poppins */
   --subtitle-font-name: "Island Moments", cursive;
+  --subtitle-color: #ffffff; /* Light grey color for subtitle */
 }
 
 * {
@@ -82,20 +83,23 @@ ul {
 
   border-radius: 50px;
   font-weight: 500;
-  font-size: 1.7rem;
-  color: var(--heading-color);
+  font-size: 2.2rem;
+  color: var(--subtitle-color); /* Changed to a lighter color */
 }
 
-@media only screen and(max-width : 992px){
-  .primary_btn a , .secondary_btn a {
+@media only screen and (max-width: 992px) {
+  .primary_btn a,
+  .secondary_btn a {
     font-size: 0.9rem;
   }
 
-  .primary_btn , .secondary_btn , .btn-dark{
+  .primary_btn,
+  .secondary_btn,
+  .btn-dark {
     padding: 0.2rem 1.1rem !important;
   }
 
-  section{
+  section {
     padding: 40px 0;
   }
 }
