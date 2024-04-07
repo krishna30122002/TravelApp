@@ -57,10 +57,10 @@ const Header = () => {
       <Container>
         <Row>
           <div className="nav_wrapper d-flex align-items-center justify-content-between">
+
             <div className="logo">
               <img src={Logo} alt="" />
             </div>
-
             <div className="navigation" ref={menuRef} onClick={toggleMenu}> 
               <ul className="menu d-flex align-items-center gap-5">
                 {nav_links.map((item, index) => (
